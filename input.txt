@@ -1,0 +1,26 @@
+ALGORITMO
+
+VAR
+  nome: caractere
+  ano_at, ano_nc, idade: inteiro
+  
+INICIO
+
+  ESCREVA("Digite seu nome")
+  LEIA(nome)
+
+  ESCREVA("Digite o ano de seu nascimento")
+  LEIA(ano_nc)
+  
+  ESCREVA("Digite o ano atual")
+  LEIA(ano_at)
+  
+  idade <- ano_at - ano_nc
+  
+
+  ESCREVA ("Seu nome e ", nome)
+  
+
+  ESCREVA ("Sua idade e ", idade)
+
+FIM
